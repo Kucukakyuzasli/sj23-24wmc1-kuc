@@ -1,0 +1,50 @@
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: azure;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;  
+    border-style: solid;
+    border-color: pink;
+    border-width: thick;
+
+}
+li{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;  
+}
+h1{
+    font-size: xx-large;
+}
+h2{
+    font-size: x-large;
+}
+body{
+    background-color: rosybrown;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+tr, td{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;  
+    border-style: solid;
+    border-color: pink;
+    border-width: thick;;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+form{
+    margin-left: auto;
+    margin-right: auto;
+}
