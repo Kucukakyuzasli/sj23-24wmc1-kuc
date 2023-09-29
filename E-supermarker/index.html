@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Supermarket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>E-Supermarket</h1>
+        <p>Hier können Sie Ihre täglichen Einkäufe erledigen.</p>
+    </header>
+
+    <table>
+        <tr>
+            <td>Art.</td>
+            <td>Produkt</td>
+            <td>Menge</td>
+            <td>Bild</td>
+            <td>buy?</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Apfel</td>
+            <td>1</td>
+            <td><img src="img/apple.jpg" alt="Apfel"></td>
+            <td><nav><a href="buy.html">buy</a></nav></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Birne</td>
+            <td>1</td>
+            <td><img src="img/pear.jpg" alt="Birne"></td>
+            <td><nav><a href="buy.html">buy</a></nav></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Banane</td>
+            <td>1</td>
+            <td><img src="img/banana.jpg" alt="Banane"></td>
+            <td><nav><a href="buy.html">buy</a></nav></td>
+        </tr>
+    </table>
+
+    <footer id="kontakt">
+        <h2>Kontakt</h2>
+        <form>
+            Name: <input type="text"><br>
+
+            Email: <input type="text"><br>
+
+            Ich bin kein Roboter: <input type="checkbox"><br>
+
+            <button>Abschicken</button>
+
+            <script>
+                const btn = document.querySelector("button");
+
+                btn.addEventListener('click', function() {
+                    alert("Sie wurden in den Newsletter-Verteiler aufgenommen!");
+                });
+            </script>
+        </form>
+    </footer>
+</body>
+</html>
