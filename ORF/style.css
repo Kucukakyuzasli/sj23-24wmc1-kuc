@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    align-self: center;
+}
+
+/* text typ und farbe */
+@font-face {
+    font-family: SourceSans3;
+    src: url(SourceSans3-VariableFont_wght.ttf);
+}
+a, p, h1{
+    font-family: SourceSans3;
+}
+p, a{
+    font-weight: 400;
+}
+h1{
+    font-weight: 900;
+}
+a, section.blue h1, section.blue p{
+    color: aliceblue;
+}
+/* background */
+nav{
+    background-color: #16416B;
+    width: 100%; 
+    height: 3em;
+}
+section.blue{
+    background-color: steelblue;
+}
+/* img1 */
+img#img1{
+    height: auto;
+    width: 100%;
+    
+}
+/* artikel */
+article{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+h1.title{
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+/* nav */
+nav a{
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 10px;
+    /* text-align: center; */
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: 900;
+    vertical-align: middle;
+}
+nav p{
+    display: none;
+}
+nav a:hover{
+    background-color: #1f578f;
+}
+nav#topnav{
+    position: fixed;
+}
+nav input, nav label{
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    #topnav a{
+        float: right;
+        display: none;
+    }
+    /* #menubutton{
+        width: 40px;
+        height: 6px;
+        background-color: aliceblue;
+        margin: 6px 0 5px 6px;
+    } */
+    /* nav input{
+        display: inline-block;
+    } */
+    #items a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid aliceblue;
+        background-color: #16416B;
+        margin: 0;
+        text-align: left;
+    }
+    #items a:hover{
+        background-color: #1f578f;
+    }
+    #topnav label { 
+        display: inline-block; 
+        color: aliceblue;
+        font-style: normal;
+        font-size: 1.5em;
+        padding: 8px;
+    }
+    #items { 
+        display: none; 
+    }
+    #topnav input:checked ~ #items {
+        display: block; 
+    }
+    nav p{
+        display: inline;
+        color: aliceblue;
+        font-size: large;
+    }
+} 
+
+
+/* td.nav a{
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    text-decoration: solid;
+    font-size: larger;
+    font-weight: 900;
+}
+td.nav a:hover{
+    background-color: #1f578f;
+}
+nav#topnav{
+    position: fixed;
+}
+@media screen and (max-width: 500px) {
+    #topnav td{
+        float: right;
+        display: none;
+    }
+
+} */
+
+/* putin */
+img#putin{
+    max-width: 14em;
+    max-height:100%;
+    margin-left: 2em;
+}
+#putintable:nth-child(2){
+    margin-left: 6em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 1%;
+    
+}
+#putintable:first-child{
+    border-left: 10px solid dodgerblue;
+}
+section#putin2{
+    background-color: #ecf5ff;
+}
+#putintable td{
+    margin-left: 5em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+#welt{
+    color: dodgerblue;
+}
+/* contact */
+/* #questions{
+    background-color: aliceblue;
+    
+
+}
+#questions:not(p){
+    text-align: center;
+}
+#questions *{
+    margin-left: 2em;
+}
+#questions p{
+    
+
+}
+input[type=text]{
+    width: 90%;
+    text-align: center;
+}
+input[type=button]{
+    margin-right: 85%;
+    color: aliceblue;
+    background-color: grey;
+    border: 0;
+    height: 2em;
+    width: 7em;
+    position: relative;
+}
+textarea{
+    width: 90%;
+} */
+#questions *{
+    margin-left: 2em;
+}
+#box{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin: 0;
+}
+#check p{
+    display: inline;
+}
+input[type=button]{
+    margin-right: 85%;
+    color: aliceblue;
+    background-color: grey;
+    border: 0;
+    height: 2em;
+    width: 7em;
+    position: relative;
+}
+input[type=text]{
+    width: 85%;
+    text-align: center;
+}
+textarea{
+    width: 85%;
+    text-align: center;
+}
+input[type=checkbox] #box{
+    border-color: gray;
+    border-width: 3px;
+}
+/* o3 */
+#o3 td{
+    font-family: SourceSans3;
+}
+#o3{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#o3 td, tr {
+    border: 1px solid black;
+}
