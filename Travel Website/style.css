@@ -55,6 +55,32 @@ body{
         width: 90%;
         padding: 15px;    
     }
+    
+}
+@media screen and (max-width: 578px){
+    h1 :not(header h1), h3 :not(header h3), p, address, button, input{
+        font-size: x-small!important;
+    }
+    /* header h1, header h3{
+        font-size: smaller!important;
+        right: 0!important;
+        padding: 0;
+    } */
+    
+    header h1{
+        font-size:30px!important;
+        right: 1em!important;
+        padding-top: 150px!important;
+        
+    }
+    header h3{
+        font-size: 20px!important;
+        right: 1em!important;
+        padding-bottom: 120px!important;
+    }
+    #lead p{
+        line-height: 20px!important;
+    }
 }
 @media screen and (min-width: 800px){
     #one{
@@ -93,7 +119,7 @@ body{
         width: calc(100% / 3);
     }
     #whale img{
-        width: 40%;
+        width: 20rem;
         padding: 15px;    
     }
 }
@@ -140,6 +166,10 @@ header h1, header h3{
 
     
 }
+#one h3{
+    padding-top: 10px;
+    font-weight: lighter;
+}
 #one section{
     display: flex;
     flex-direction: row;
@@ -147,7 +177,7 @@ header h1, header h3{
     align-items: stretch;
 }
 #one hr{
-    width: 200px;
+    width: 70%;
 }
 #one img{
     width: 50px;
