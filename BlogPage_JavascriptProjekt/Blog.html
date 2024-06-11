@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="blogOnLoad()">
+    <header>
+        <a href="index.html"><img src="img/sampleLogo.png" alt="logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="forum.html">Forum</a></li>
+            <li><a href="AboutMe.html">About me</a></li>
+        </ul>
+    </header>
+    <main>
+        <button id="newBlog" onclick="createLog()">New Blog</button>
+        <h1>Old Logs</h1>
+        <table id="logs">
+            <tr>
+                <td>No</td>
+                <td>Date</td>
+                <td>Name</td>
+            </tr>
+
+        </table>
+
+    </main>
+    <div id="empty"></div>
+    <div id="extras">
+        <h1>If you're interested, please follow me.</h1>
+        <h3>Email</h3>
+        <address>kucukakyuzasli8@gmail.com</address>
+    </div>
+    <div id="contacts" class="flexRow">
+        <div class="flexColumn">
+            <a href="#insta"><h3>My Instagram</h3></a>
+            <a href="#facebook"><h3>My Facebook</h3></a>
+            <a href="#reddit"><h3>My Reddit</h3></a>
+        </div>
+        <div class="flexColumn">
+            <div></div>
+            <img src="img/sampleLogo.png" alt="logo" width="100px" height="100px">
+            <div></div>
+        </div>
+        <div class="flexColumn">
+            <a href="#git"><h3>My Github</h3></a>
+            <a href="#pinterest"><h3> My Pinterest</h3></a>
+            <a href="#youtube"><h3>My Youtube</h3></a>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

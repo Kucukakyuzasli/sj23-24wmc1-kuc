@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+h1, p, h2, h3, address{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color:#d1dbcd;
+    display: flex;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+header ul li{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: larger;
+}
+header ul li:hover{
+    background-color: #b8cec2;
+}
+
+header img{
+    width: 100px;
+    height: 5em;
+}
+#welcome{
+    position: relative;
+    text-align: center;
+    background-color: #fdb3a4;
+    margin-left: 50px;
+    margin-right:50px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    
+    
+    
+}
+#welcome h1, #welcome p{
+    color: aliceblue;
+}
+#welcome div{
+    background-color: transparent;
+    border: aliceblue solid 2px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#aboutMe{
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: center;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: center;
+}
+#ican{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    background-color: #fdb3a4;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#ican div img{
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 50px;
+    border: solid #b8cec2 7px;
+}
+/* #ican div img:hover{
+    width: 100px;
+    height: 100px;
+    
+} */
+#extras{
+    background-color: #d1dbcd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+} 
+
+#extras h1{
+    text-align: center;
+    color: aliceblue;
+}
+#extras h3, #extras address{
+    text-align: center;
+    font-size: smaller;
+    color: aliceblue;
+}
+
+
+#contacts{
+    background-color: #b8cec2;
+}
+#contacts a{
+    color: aliceblue;
+    text-decoration: none;
+}
+/* #contacts a:hover{
+    font-size: larger;
+    padding: 0;
+} */
+
+button{
+    background-color:#fdb3a4;
+    border: none;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+    
+    
+}
+button:hover{
+    background-color: #b8cec2;
+}
+#newBlog{
+    margin-top: 25px;
+    margin-left: 40%;
+    width: 20%;
+    margin-right: 40%;
+}
+table{
+    background-color: #d1dbcd;
+    border: #b8cec2;
+    width: 100%;
+}
+td{
+    padding: 15px;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    border: solid #b8cec2;
+    margin: 0;
+}
+#empty{
+    height: 120px;
+}
+main:nth-child(2){
+    color: #fdb3a4;
+}
+
+#test{
+    margin-left: 15px;
+}
+
+input{
+    background-color: aliceblue;
+    border: #b8cec2 solid 2px;
+    margin: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
+
+textarea{
+    background-color: aliceblue;
+    border: #b8cec2 solid 2px;
+    margin: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 600px;
+    font-size: medium;
+    white-space: pre;
+}
+
+#buttontest{
+    margin: 15px;
+    width: 100px;
+}
+
+pre{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+#blogTitle{
+    margin: 15px;
+}
+img[alt~="spengergasse"]{
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#forum{
+    text-align: center;
+}
+#forum textarea{
+    width: 90%;
+    height: 200px;
+}
+#forum input{
+    width: 90%;
+    margin: 5px;
+}
+#forum button{
+    width: 100px;
+    margin: 5px;
+
+}
+#forumPosts div{
+    text-align: left;
+    margin: 15px;
+    padding: 15px;
+    border: #b8cec2 solid 2px;
+    
+}
+#forumPosts address{
+    color: rgb(224, 148, 113);
+}
+#forumPosts p{
+    color: rgb(126, 80, 43);
+}
+
+
+
+
+
